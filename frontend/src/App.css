@@ -1,0 +1,31 @@
+.App {
+  font-family: Arial;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.answer,
+.history {
+  margin-top: 20px;
+}
+
+.qa {
+  margin-top: 10px;
+}
